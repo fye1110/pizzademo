@@ -1,0 +1,25 @@
+{
+  "pricingRules": [
+    { "id": "default" },
+    {
+      "id": "microsoft",
+      "type": "GET_MORE",
+      "size": "S",
+      "getMoreAmount": 1,
+      "from": 2
+    },
+    {
+      "id": "amazon",
+      "type": "DROP",
+      "size": "L",
+      "dropTo": 19.99
+    },
+    {
+      "id": "facebook",
+      "type": "GET_MORE",
+      "size": "M",
+      "getMoreAmount": 1,
+      "from": 4
+    }
+  ]
+}
